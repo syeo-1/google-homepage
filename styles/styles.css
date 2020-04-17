@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    display: inline-block;
+    width: 100%;
+}
+
+.mail-images-signIn {
+    float: right;
+}
+
+.about-store {
+    float: left; 
+}
+

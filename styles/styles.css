@@ -1,21 +1,87 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    font-size: 14px;
 }
 #header {
     display: inline-block;
     width: 100%;
+    min-height: 65px;
 }
 
 #mail-images-signIn {
     float: right;
+    padding: 20px;
+}
+
+#images {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #about-store {
     float: left; 
+    padding: 20px;
+}
+
+#store {
+    padding-left: 15px;
+}
+
+#sign-in {
+    display: inline-block;
+    background: #4285f4;
+    color: #fff;
+    padding: 0px 12px;
+    line-height: 28px;
+}
+
+.center {
+   text-align: center; 
 }
 
 #logo {
-    display: block;
-    margin: 0 auto;
+    padding: 0px auto 30px auto;
+    margin-top: 89px;
 }
+
+#input-area {
+    height: 25px;
+}
+
+#search-group {
+    padding: 18px 0px 0px;
+}
+
+.search-button {
+    margin: 11px 4px;
+    padding: 0px 16px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: inherit;
+    height: 36px;
+    line-height: 27px;
+}
+
+#footer {
+    position: fixed;
+    margin-bottom: 0px;
+    bottom: 0px;
+    display: inline-block;
+    width: 100%;
+    background: #f2f2f2;
+    padding: 5px;
+}
+
+#left-foot {
+    float: left;
+}
+.foot-el {
+    padding-left: 27px;
+}
+#right-foot {
+    float: right;
+    margin-right: 30px;
+}
+
 

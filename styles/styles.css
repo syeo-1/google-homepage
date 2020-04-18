@@ -7,6 +7,9 @@ body {
 a {
     text-decoration: none;
 }
+a:hover {
+    text-decoration: underline;
+}
 
 #header {
     display: inline-block;
@@ -79,7 +82,8 @@ a#sign-in {
     display: inline-block;
     width: 100%;
     background: #f2f2f2;
-    padding: 5px;
+    /* padding: 5px; */
+    line-height: 40px; 
 }
 
 #footer a{

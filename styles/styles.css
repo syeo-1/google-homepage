@@ -3,10 +3,19 @@ body {
     margin: 0;
     font-size: 14px;
 }
+
+a {
+    text-decoration: none;
+}
+
 #header {
     display: inline-block;
     width: 100%;
     min-height: 65px;
+}
+
+#header a {
+    color: rgba(0,0,0,0.87);
 }
 
 #mail-images-signIn {
@@ -28,7 +37,7 @@ body {
     padding-left: 15px;
 }
 
-#sign-in {
+a#sign-in {
     display: inline-block;
     background: #4285f4;
     color: #fff;
@@ -71,6 +80,10 @@ body {
     width: 100%;
     background: #f2f2f2;
     padding: 5px;
+}
+
+#footer a{
+    color: #5f6368;
 }
 
 #left-foot {
